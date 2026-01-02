@@ -1,8 +1,7 @@
 n= int(input("Entrer Un Nombre: \n"))
 
-L= {}
+D= {}
 
 for i in range(1, n+1):
-    L[i]= i**2
-print(L)
-
+    D[i]= i**2
+print(D)
